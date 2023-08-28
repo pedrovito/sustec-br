@@ -1,0 +1,70 @@
+.feed{
+    width: 50rem;
+    height: 30rem;
+    left: 182px;
+    top: 163px;
+    background: #FFFFFF;
+    box-shadow: -6px -6px 4px rgba(0, 0, 0, 0.5), 6px 6px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-left: 15rem;
+}
+
+.Fnome {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+         
+}
+
+.Femail {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.Fassunto {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+#boxnome {
+    width: 20rem;
+    height: 20px;
+    left: 219.19px;
+    top: 340px;
+
+    background: #C9C2C2;
+    border-radius: 10px;
+}
+
+#boxnome,#boxemail{
+    flex-direction: row;
+}
+
+#boxemail {
+    width: 20rem;
+    height: 20px;
+    left: 219.19px;
+    top: 340px;
+
+    background: #C9C2C2;
+    border-radius: 10px;
+}
+
+#boxassunto {
+    width: 30rem;
+    height: 5rem;
+    left: 219.19px;
+    top: 340px;
+    background: #C9C2C2;
+    border-radius: 10px;
+
+}

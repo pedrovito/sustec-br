@@ -1,0 +1,59 @@
+.cartao{
+    position: absolute;
+    height: 28rem;
+    width: 50rem;
+    left: 4.11%;
+    right: 41.15%;
+    top: 23.1%;
+    bottom: 23.19%;
+    background: #FFFFFF;
+    box-shadow: -6px -6px 4px rgba(0, 0, 0, 0.25), 6px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.cartao h2{
+    margin-top: 1rem;
+    text-align: center ;
+    font-size: 2rem;
+}
+
+.cartao img{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    width: 45rem;
+    height: 20rem;
+    margin-block: 2rem;
+}
+
+
+.cartao1{
+    padding-left: 2rem;
+    height: 10rem;
+    background: #FFFFFF;
+    box-shadow: -2.5px -2.5px 4px rgba(0, 0, 0, 0.25), 2.5px 2.5px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 5rem;
+    padding-right: 4rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 55rem;
+    width: 15rem;  
+    padding-bottom: 10rem;      
+    margin-block: 2rem;
+}
+.cartao1 p{
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+    
+
+.cartao1 h3{
+    font-size: 1.5rem;
+}
+
+.mapamental1{
+    height: 100vh;
+    width: 100vh;
+}

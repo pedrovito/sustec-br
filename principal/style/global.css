@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(/imagens/tela-principal.png);
+    background-repeat: repeat;
+    background-size: cover;
+    
+    
+}
+
+
+nav img {
+
+    float: left;
+    padding-left: 2rem;
+
+    
+}
+
+
+
+nav {
+ 
+  background-color: white;
+  justify-content: end;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+ 
+}
+  
+
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 8rem;
+
+}
+  
+
+
+li {
+
+    display: inline-block;
+    text-align: center;
+
+}
+  
+
+
+li a {
+
+    display: block;
+    color: var(--dark_green);
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.875rem;
+
+}
+
+
+
+li img{
+
+    height: 6.12;
+    width: 6.25rem;
+
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+}
+
+li a:before,
+li a:after {
+
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background: var(--dark_green) ;
+    transition: .5s;
+}
+
+li a:after{
+    left:0;
+    bottom: 0px;
+}
+  
+li a:before{
+    right: 0;
+    top: 0px;
+}
+
+li a:hover:after,
+li a:hover:before{
+    width: 100%;
+}
+
+h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: var(--dark_green);
+
+}
+
+
+
+hr {
+
+    border: 1px solid rgba(5, 143, 67, 0.80);
+    position: absolute;
+    width: 2rem;
+    height: 0px;
+    left: 8.8%;
+    top: 3.438rem;
+
+}
+
+.btn {
+    color: #1C3B0F;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0.2rem solid var(--dark_hover);
+    padding: 10px 20px;
+    font-size: 2rem;
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    color: white;
+}
+  
+.btn::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: var(--dark_hover);
+    z-index: -1;
+    transition: all 1s;
+}
+  
+.btn:hover::before {
+    width: 160%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

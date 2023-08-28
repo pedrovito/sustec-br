@@ -1,0 +1,761 @@
+#rapido {
+        font-weight: 300;
+        padding-top: 4rem;
+        height: 45rem;
+        width: 24rem;
+        background: #fff;
+        box-shadow: 2.5px 2.5px 4px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 1.25rem;
+        margin: 2rem;
+        justify-content: center;
+        align-items: center;
+
+}
+
+
+
+#rapido p {
+        padding-top: 2rem;
+        text-align: justify;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1.7rem;
+
+}
+
+
+
+#rapido img {
+
+
+        padding-top: 2rem;
+        margin: auto;
+        display: block;
+        padding-bottom: 1.25rem;
+
+}
+
+
+
+#pratico {
+        font-weight: 300;
+        padding-top: 4rem;
+        height: 45rem;
+        width: 24rem;
+        background: #fff;
+        box-shadow: 2.5px 2.5px 4px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 1.25rem;
+        margin: 2rem;
+        justify-content: center;
+        align-items: center;
+
+}
+
+
+
+#pratico p {
+        height: auto;
+        padding-top: 2rem;
+        text-align: justify;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 1.7rem;
+
+}
+
+
+
+#pratico img {
+
+
+        padding-top: 2rem;
+        margin: auto;
+        display: block;
+        padding-bottom: 1.25rem;
+
+}
+
+
+
+#facil {
+
+        font-weight: 300;
+        padding-top: 4rem;
+        height: 45rem;
+        width: 24rem;
+        background: #fff;
+        box-shadow: 2.5px 2.5px 4px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 1.25rem;
+        margin: 2rem;
+        justify-content: center;
+        align-items: center;
+}
+
+
+
+#facil h1 {
+
+        text-align: center;
+
+}
+
+
+
+#facil img {
+
+        padding-top: 2rem;
+        margin: auto;
+        display: block;
+        padding-bottom: 1.25rem;
+
+}
+
+
+
+#facil p {
+
+        padding-top: 2rem;
+        text-align: justify;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 1.7rem;
+}
+
+
+
+#card_aula {
+
+        width: 75.5rem;
+        height: 12.5rem;
+        background: #FFFFFF;
+        box-shadow: 2.5px 2.5px 4px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 1.25rem;
+
+}
+
+
+
+#imagen1 {
+
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        min-height: min-content;
+        min-height: min-content;
+        display: flex;
+        padding-top: 2rem;
+
+}
+
+#imgm {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+<!---------------------------------------------------------------PARA-CIMA-CLASS---PARA-BAIXO-ID--------------------------------------------------------------------->
+
+.navbar {
+
+        display: flex;
+        justify-content: end;
+        position: relative;
+
+}
+
+
+
+.logotipo {
+
+        display: flex;
+        justify-content: space-between;
+
+}
+
+
+
+.objetivo {
+
+        padding-top: 1.2rem;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        font-size: 1.875rem;
+        padding-bottom: 5rem;
+
+}
+
+
+
+.objetivo_h1 {
+
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+}
+
+
+
+.objetivo h2 {
+
+        font-size: 2.5rem;
+        font-style: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+
+}
+
+
+
+.objetivo p {
+
+        font-size: 1.25rem;
+        font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+        display: flex;
+        align-items: center;
+}
+
+.card {
+        border: 20px;
+        margin-left: 10px;
+        height: 200px;
+        background-color: rgb(0, 95, 0);
+        flex: 1;
+        transition: .3s all ease;
+
+
+}
+
+.texte {
+        border: 20px;
+        margin-left: 10px;
+        height: 200px;
+        background-color: rgb(0, 95, 0);
+        flex: 1;
+        transition: .3s all ease;
+}
+
+.texte:hover {
+        flex: 2;
+        background-color: rgb(13, 253, 25);
+}
+
+.card:hover {
+        flex: 2;
+        background-color: rgb(13, 253, 25);
+}
+
+
+.aula_h1 {
+
+        padding-top: 8rem;
+
+
+}
+
+
+
+.aula {
+
+        padding-top: 3rem;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5rem;
+
+}
+
+
+
+.aula p {
+
+        font-size: 1.25rem;
+        text-align: center;
+        margin-top: 1.875rem;
+        margin-left: 1.875rem;
+        margin-right: 1.875rem;
+        font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.aulas {
+
+        position: absolute;
+        width: 24.375rem;
+        height: 11.25rem;
+        background: rgba(26, 106, 58, 0.8);
+        border-radius: .625rem;
+
+}
+
+
+
+.logotipo {
+
+        justify-content: end;
+        display: flex;
+        justify-content: space-between;
+
+}
+
+.opcoes {
+
+        margin-top: 1rem;
+        margin-right: 4rem;
+        margin-bottom: 2rem;
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        display: flex;
+        text-align: center;
+        color: var(--dark_green);
+        cursor: pointer;
+}
+
+
+.sustec2 {
+
+        padding-bottom: 2.5rem;
+        display: block;
+
+}
+
+
+
+.logo2 {
+
+        margin-right: 2rem;
+
+}
+
+
+
+.cln {
+
+        display: flex;
+        justify-content: space-between;
+
+}
+
+
+
+.aula1 {
+
+        width: 6.25rem;
+
+}
+
+
+
+.hori1 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 2rem;
+
+}
+
+
+
+.hori2 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 5rem;
+}
+
+
+
+#links {
+
+        margin-bottom: 5rem;
+}
+
+
+
+.link img {
+        height: 5rem;
+}
+
+
+
+.cartao {
+        position: absolute;
+        height: 28rem;
+        width: 50rem;
+        left: 4.11%;
+        right: 41.15%;
+        top: 23.1%;
+        bottom: 23.19%;
+        background: #FFFFFF;
+        box-shadow: -6px -6px 4px rgba(0, 0, 0, 0.25), 6px 6px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+}
+
+.cartao h2 {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 2rem;
+}
+
+.cartao img {
+        display: flex;
+        margin-left: 3rem;
+        align-items: center;
+        width: 45rem;
+        height: 20rem;
+        margin-block: 2rem;
+}
+
+
+.cartao1 {
+        padding-left: 2rem;
+        height: 10rem;
+        background-color: #501c1c;
+        box-shadow: -2.5px -2.5px 4px rgba(0, 0, 0, 0.25), 2.5px 2.5px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        padding: 5rem;
+        padding-right: 4rem;
+        text-align: center;
+        align-items: center;
+        margin-left: 55rem;
+        width: 15rem;
+        padding-bottom: 10rem;
+        margin-block: 2rem;
+}
+
+.cartao1 p {
+        
+        font-weight: 300;
+        text-align: center;
+        font-size: 1.2rem;
+}
+
+
+
+.cartao1 h3 {
+        font-size: 1.5rem;
+}
+
+.h2a1 {
+        font-family: 'Francois One', sans-serif;
+        margin-left: 6rem;
+}
+
+.para1 {
+        text-align: justify;
+        width: 550px;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 1rem;
+        margin-left: 2rem;
+        float: left;
+
+}
+
+.imagen1,
+.para1 {
+        justify-content: space-between;
+        padding-left: 4rem;
+        align-items: end;
+}
+
+.imagen1 {
+        padding-right: 4rem;
+        width: 500px 500px;
+        float: right;
+}
+
+.mapamental1 {
+        height: 100vh;
+        width: 100vh;
+}
+
+.Fnome {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1rem;
+
+}
+
+.Femail {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1rem;
+}
+
+.Fassunto {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1rem;
+}
+
+#boxnome {
+        width: 20rem;
+        height: 20px;
+        left: 219.19px;
+        top: 340px;
+
+        background: #C9C2C2;
+        border-radius: 10px;
+}
+
+#boxnome,
+#boxemail {
+        flex-direction: row;
+}
+
+#boxemail {
+        width: 20rem;
+        height: 20px;
+        left: 219.19px;
+        top: 340px;
+
+        background: #C9C2C2;
+        border-radius: 10px;
+}
+
+#boxassunto {
+        width: 30rem;
+        height: 5rem;
+        left: 219.19px;
+        top: 340px;
+        background: #C9C2C2;
+        border-radius: 10px;
+
+}
+
+.feed {
+        width: 50rem;
+        height: 30rem;
+        left: 182px;
+        top: 163px;
+        background: #FFFFFF;
+        box-shadow: -6px -6px 4px rgba(0, 0, 0, 0.5), 6px 6px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        margin-left: 15rem;
+}
+
+.jogocard {
+        width: 35rem;
+        height: 25rem;
+        background: #fff;
+        box-shadow: -4px -4px 2px rgba(0, 0, 0, 0.2), 8px 8px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 1rem;
+        display: inline-block;
+        text-align: center;
+
+}
+
+.jogocard img {
+        margin-top: 3rem;
+        width: 15rem;
+        height: 13rem;
+
+}
+.jogocard h2{
+        font-size: 4rem;
+}
+
+
+h3{ 
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: bolder ;
+        color:var(--dark_green);          
+        font-size: larger; 
+}
+
+.bemviado {
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+                
+}
+#butaojogo {
+        display: flex;
+        justify-content: center;
+}
+
+#butaojogo button{
+        width:9rem;
+        height:3rem ;
+        border-radius:7px;
+        font-size:1rem;
+}
+
+
+.bemviado p {
+        width: 27rem;
+        color: #000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        line-height: 2.5rem;
+        font-weight: 400;
+
+}
+
+.bvd {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+}
+
+.bvd h3 {
+        
+        color: #000000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 2.125rem ;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 2.5rem;
+}
+
+
+.feedback {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+
+}
+
+<!--------------------------------------------------------------------------------------Carrossel---------------------------------------------------------------------->
+
+body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.slider {
+        margin: 0 auto;
+        width: 1100px;
+        height: 500px;
+        overflow: hidden;
+}
+
+.slides {
+        width: 400%;
+        height: 400px;
+        display: flex;
+}
+
+.slides input {
+        display: none;
+}
+
+.slide {
+        width: 25%;
+        position: relative;
+        transition: 2s;
+}
+
+.slide img {
+        width: 1100px;
+
+}
+
+.manual-navigation {
+        position: absolute;
+        width: 800px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+        padding-inline: 10rem;
+        padding-top: 5rem;
+
+}
+
+.manual-btn {
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+        margin-right: 40px;
+}
+
+.manual-btn:hover {
+        background-color: #fff;
+}
+
+#radio1:checked~.first {
+        margin-left: 0%;
+}
+
+#radio2:checked~.first {
+        margin-left: -25%;
+}
+
+#radio3:checked~.first {
+        margin-left: -50%;
+}
+
+#radio4:checked~.first {
+        margin-left: -75%;
+}
+
+.navigation-auto div {
+        border: 2px solid #20a6ff;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+
+}
+
+.navigation-auto {
+        position: absolute;
+        width: 800px;
+        margin-top: 360px;
+        display: flex;
+        justify-content: center;
+        padding-inline: 10rem;
+        padding-top: 5rem;
+}
+
+.navigation-auto div:not(:last-child) {
+        margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+        background-color: #fff;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+        background-color: #fff;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+        background-color: #fff;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+        background-color: #fff;
+}
