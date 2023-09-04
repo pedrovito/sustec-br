@@ -235,6 +235,7 @@
         border: 20px;
         margin-left: 10px;
         height: 200px;
+        background-image: url(../imagens/endbar.jpg);
         background-color: rgb(0, 95, 0);
         flex: 1;
         transition: .3s all ease;
