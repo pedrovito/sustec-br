@@ -246,6 +246,16 @@
         background-color: rgb(13, 253, 25);
 }
 
+
+
+.texte div {
+        display: none;
+}
+
+.texte:hover div {
+        display: block;       
+}
+
 .card:hover {
         flex: 2;
         background-color: rgb(13, 253, 25);
