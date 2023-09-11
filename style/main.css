@@ -480,6 +480,7 @@
 }
 
 .Fnome {
+        
         text-align: center;
         justify-content: center;
         display: flex;
@@ -487,6 +488,10 @@
         flex-direction: column;
         padding-top: 1rem;
 
+}
+
+.feed h1{
+        padding-top: 2rem;
 }
 
 .Femail {
@@ -510,9 +515,8 @@
         height: 20px;
         left: 219.19px;
         top: 340px;
-
         background: #C9C2C2;
-        border-radius: 10px;
+        border-radius: px;
 }
 
 #boxnome,
@@ -525,9 +529,8 @@
         height: 20px;
         left: 219.19px;
         top: 340px;
-
         background: #C9C2C2;
-        border-radius: 10px;
+        border-radius: 2px;
 }
 
 #boxassunto {
@@ -536,7 +539,7 @@
         left: 219.19px;
         top: 340px;
         background: #C9C2C2;
-        border-radius: 10px;
+        border-radius: 1px;
 
 }
 
