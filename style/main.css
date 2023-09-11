@@ -235,6 +235,7 @@
         border: 20px;
         margin-left: 10px;
         height: 200px;
+        background-image: url(../imagens/Aula1.png);
         background-color: rgb(0, 95, 0);
         flex: 1;
         transition: .3s all ease;
@@ -243,6 +244,16 @@
 .texte:hover {
         flex: 2;
         background-color: rgb(13, 253, 25);
+}
+
+
+
+.texte div {
+        display: none;
+}
+
+.texte:hover div {
+        display: block;       
 }
 
 .card:hover {
