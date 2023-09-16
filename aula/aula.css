@@ -1,7 +1,20 @@
+body{
+    background-image: url(../imagens/tela-principal.png);
+    background-repeat: repeat;
+    background-size: cover;
+    
+    
+}
+.imagen1 img{
+    width: 30%;
+    padding-left: 5rem;
+    
+}
 .h2a1 {
+
     font-family: 'Francois One', sans-serif;
-    margin-left: 13rem;
-    font-size: 2.2500rem;
+    margin-left: 23rem;
+    font-size: 2rem;
 }
 
 .para1 {
@@ -10,7 +23,7 @@
     font-family: 'Poppins', sans-serif;
     padding-top: 1rem;
     float: left;
-    font-size: 1.50rem;
+    font-size: 1rem;
 
 }
 
@@ -19,19 +32,41 @@
     justify-content: flex-end;
 }
 
-#para3 {
-    
-}
 
-.imagen1,
-.para1 {
+
+.aulala {
     justify-content: space-between;
     padding-left: 11rem;
 
 }
+.feedbacka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.feedbacka button{
+    color: #1C3B0F;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0.2rem solid var(--dark_hover);
+    padding: 10px 20px;
+    font-size: 2rem;
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
 
 .imagen1 {
     padding-right: 0rem;
     width: 450px 450px;
-    float: right;
+    
 }
