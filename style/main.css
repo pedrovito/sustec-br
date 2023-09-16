@@ -466,33 +466,7 @@
         font-size: 1.5rem;
 }
 
-.h2a1 {
-        font-family: 'Francois One', sans-serif;
-        margin-left: 6rem;
-}
 
-.para1 {
-        text-align: justify;
-        width: 550px;
-        font-family: 'Poppins', sans-serif;
-        padding-top: 1rem;
-        margin-left: 2rem;
-        float: left;
-
-}
-
-.imagen1,
-.para1 {
-        justify-content: space-between;
-        padding-left: 4rem;
-        align-items: end;
-}
-
-.imagen1 {
-        padding-right: 4rem;
-        width: 500px 500px;
-        float: right;
-}
 
 .mapamental1 {
         height: 100vh;
