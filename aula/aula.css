@@ -42,6 +42,7 @@ body{
     width: auto;
 }
 .feedbacka{
+    margin-right: 6rem;
     display: flex;
     margin-top: 3rem;
     justify-content: center;
@@ -71,8 +72,15 @@ body{
 }
 
 #butaones{
+    
+    align-items: center;
     display: flex;
     justify-content: center;
+}
+
+#butaones button:hover{
+    position: absolute;
+    background-color: black;
 }
 
 
