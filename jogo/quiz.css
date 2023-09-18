@@ -11,16 +11,25 @@
   
   body {
     font-family: Arial, sans-serif;
-    
     background-repeat: repeat;
     background-size: cover; 
   }
   
- 
-  
-  
 
-  
+  .navJ {
+
+    margin-top: 1rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    color: var(--dark_green);
+    cursor: pointer;
+    
+}
+
   
   .questions-container {
     
