@@ -1,59 +1,77 @@
-.cartao{
-    position: absolute;
-    height: 28rem;
-    width: 50rem;
-    left: 4.11%;
-    right: 41.15%;
-    top: 23.1%;
-    bottom: 23.19%;
-    background: #FFFFFF;
-    box-shadow: -6px -6px 4px rgba(0, 0, 0, 0.25), 6px 6px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+.corpomapa{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
 }
-.cartao h2{
-    margin-top: 1rem;
-    text-align: center ;
-    font-size: 2rem;
-}
-
-.cartao img{
+.imagempop{
     display: flex;
-    margin-left: 3rem;
     align-items: center;
-    width: 45rem;
-    height: 20rem;
-    margin-block: 2rem;
+    justify-content: center;
+    
+}
+.imagempop img{
+    
+    width: 70%;
+    margin: 5% auto;
+    padding: 10px;
+    background: white;
+}
+.mapa_close{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: bold;
+    font-size: larger;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
 }
 
+.img_mapaE button{
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+}
 
-.cartao1{
-    padding-left: 2rem;
-    height: 10rem;
-    background: #FFFFFF;
-    box-shadow: -2.5px -2.5px 4px rgba(0, 0, 0, 0.25), 2.5px 2.5px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    padding: 5rem;
-    padding-right: 4rem;
-    text-align: center;
+.img_mapaE img{
+    width: 100%;
+}
+.texto_mapamentel{
+    display: flex;
     align-items: center;
-    margin-left: 55rem;
-    width: 15rem;  
-    padding-bottom: 10rem;      
-    margin-block: 2rem;
-}
-.cartao1 p{
-    font-weight: 300;
-    text-align: center;
-    font-size: 1.2rem;
-}
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    width: 25rem;
     
 
-.cartao1 h3{
-    font-size: 1.5rem;
+    text-align:justify;
 }
 
-.mapamental1{
-    height: 100vh;
-    width: 100vh;
+.lalaland{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.img_mapaE{
+    
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    width: auto;
+}
+
+
+.page_mapa{
+    border-radius: 1.25rem;
+    background: #FFF;
+    box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.2), -2px -2px 1px 0px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    height: 50%;
 }

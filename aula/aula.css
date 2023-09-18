@@ -6,8 +6,8 @@ body{
     
 }
 .imagen1 img{
-    width: 30%;
-    padding-left: 5rem;
+    width: 35%;
+    padding-left: 2.5rem;
     
 }
 .h2a1 {
@@ -18,12 +18,14 @@ body{
 }
 
 .para1 {
+    margin-left: 5rem;
     text-align: justify;
-    width: 650px;
+    width: 50%;
     font-family: 'Poppins', sans-serif;
     padding-top: 1rem;
     float: left;
     font-size: 1rem;
+   
 
 }
 
@@ -36,37 +38,49 @@ body{
 
 .aulala {
     justify-content: space-between;
-    padding-left: 11rem;
-
+    height: auto;
+    width: auto;
 }
 .feedbacka{
     display: flex;
-    align-items: center;
+    margin-top: 3rem;
     justify-content: center;
-    justify-content: space-around;
+    padding-left: 1rem;
 }
-.feedbacka button{
-    color: #1C3B0F;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 0.2rem solid var(--dark_hover);
-    padding: 10px 20px;
-    font-size: 2rem;
-    display: block;
-    align-items: center;
+.feedbacka a {
+    width: 10rem;
+    height: 4rem;
     text-align: center;
-    font-weight: bold;
-    background: transparent;
-    position: relative;
-    transition: all 1s;
-    overflow: hidden;
-    cursor: pointer;
-
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 1px;
+    color: var(--dark_hover);
 }
+
+.feedbacka button {
+    border: 1;
+    cursor: pointer;
+    width: 10rem;
+    height: 4rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 1px;
+    color: var(--dark_hover);
+   
+}
+
+#butaones{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 .imagen1 {
+    padding-top: 1.27rem;
     padding-right: 0rem;
     width: 450px 450px;
     
 }
+

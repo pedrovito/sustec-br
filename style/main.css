@@ -55,12 +55,12 @@
 
 #pratico p {
         height: auto;
-        padding-top: 2rem;
+        
         text-align: justify;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
         margin-top: 1.7rem;
-
+        margin-bottom: 1rem;
 }
 
 
@@ -113,8 +113,8 @@
 
 
 #facil p {
-
-        padding-top: 2rem;
+        margin-bottom: 1rem;
+        
         text-align: justify;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
@@ -209,11 +209,13 @@
 
 
 .objetivo p {
-
+        margin-bottom: 1rem;
         font-size: 1.25rem;
         font-family: 'Montserrat', sans-serif;
 
 }
+
+
 
 .container {
         display: flex;
@@ -408,70 +410,7 @@
 
 
 
-.cartao {
-        position: absolute;
-        height: 28rem;
-        width: 50rem;
-        left: 4.11%;
-        right: 41.15%;
-        top: 23.1%;
-        bottom: 23.19%;
-        background: #FFFFFF;
-        box-shadow: -6px -6px 4px rgba(0, 0, 0, 0.25), 6px 6px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
-}
 
-.cartao h2 {
-        margin-top: 1rem;
-        text-align: center;
-        font-size: 2rem;
-}
-
-.cartao img {
-        display: flex;
-        margin-left: 3rem;
-        align-items: center;
-        width: 45rem;
-        height: 20rem;
-        margin-block: 2rem;
-}
-
-
-.cartao1 {
-        padding-left: 2rem;
-        height: 10rem;
-        background-color: #501c1c;
-        box-shadow: -2.5px -2.5px 4px rgba(0, 0, 0, 0.25), 2.5px 2.5px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
-        padding: 5rem;
-        padding-right: 4rem;
-        text-align: center;
-        align-items: center;
-        margin-left: 55rem;
-        width: 15rem;
-        padding-bottom: 10rem;
-        margin-block: 2rem;
-}
-
-.cartao1 p {
-        
-        font-weight: 300;
-        text-align: center;
-        font-size: 1.2rem;
-}
-
-
-
-.cartao1 h3 {
-        font-size: 1.5rem;
-}
-
-
-
-.mapamental1 {
-        height: 100vh;
-        width: 100vh;
-}
 
 .Fnome {
         
@@ -548,83 +487,7 @@
         margin-left: 15rem;
 }
 
-.jogocard {
-        width: 35rem;
-        height: 25rem;
-        background: #fff;
-        box-shadow: -4px -4px 2px rgba(0, 0, 0, 0.2), 8px 8px 4px rgba(0, 0, 0, 0.1);
-        border-radius: 1rem;
-        display: inline-block;
-        text-align: center;
 
-}
-
-.jogocard img {
-        margin-top: 3rem;
-        width: 15rem;
-        height: 13rem;
-
-}
-.jogocard h2{
-        font-size: 4rem;
-}
-
-
-h3{ 
-        font-family: 'Montserrat', sans-serif; 
-        font-weight: bolder ;
-        color:var(--dark_green);          
-        font-size: larger; 
-}
-
-.bemviado {
-
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-                
-}
-#butaojogo {
-        display: flex;
-        justify-content: center;
-}
-
-#butaojogo button{
-        width:9rem;
-        height:3rem ;
-        border-radius:7px;
-        font-size:1rem;
-}
-
-
-.bemviado p {
-        width: 27rem;
-        color: #000;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 1.5rem;
-        font-style: normal;
-        line-height: 2.5rem;
-        font-weight: 400;
-
-}
-
-.bvd {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-}
-
-.bvd h3 {
-        
-        color: #000000;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 2.125rem ;
-        font-style: normal;
-        font-weight: bold;
-        line-height: 2.5rem;
-}
 
 
 .feedback {
@@ -650,7 +513,7 @@ body {
 .slider {
         margin: 0 auto;
         width: 1100px;
-        height: 500px;
+        height: 600px;
         overflow: hidden;
 }
 
@@ -671,14 +534,15 @@ body {
 }
 
 .slide img {
+        
         width: 1100px;
 
 }
 
 .manual-navigation {
         position: absolute;
-        width: 800px;
-        margin-top: -40px;
+        width: 90%;
+        margin-top: 60px;
         display: flex;
         justify-content: center;
         padding-inline: 10rem;
@@ -718,6 +582,10 @@ body {
         margin-left: -75%;
 }
 
+#radio5:checked~.first {
+        margin-left: -100%;
+}
+
 .navigation-auto div {
         border: 2px solid #20a6ff;
         padding: 5px;
@@ -729,8 +597,8 @@ body {
 
 .navigation-auto {
         position: absolute;
-        width: 800px;
-        margin-top: 360px;
+        width: 90%;
+        margin-top: 460px;
         display: flex;
         justify-content: center;
         padding-inline: 10rem;
