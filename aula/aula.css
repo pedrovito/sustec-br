@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imagens/tela-principal.png);
+
     background-repeat: repeat;
     background-size: cover;
     
@@ -13,14 +13,14 @@ body{
 .h2a1 {
 
     font-family: 'Francois One', sans-serif;
-    margin-left: 23rem;
+    margin-left: 20rem;
     font-size: 2rem;
 }
 
 .para1 {
     margin-left: 5rem;
     text-align: justify;
-    width: 50%;
+    width: 40%;
     font-family: 'Poppins', sans-serif;
     padding-top: 1rem;
     float: left;
@@ -89,6 +89,6 @@ body{
     padding-top: 1.27rem;
     padding-right: 0rem;
     width: 450px 450px;
-    
+    float: right;    
 }
 
