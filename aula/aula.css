@@ -6,21 +6,27 @@ body{
     
 }
 .imagen1 img{
-    width: 35%;
-    padding-left: 2.5rem;
+    width: 40%;
+    padding-left: 8rem;
     
 }
 .h2a1 {
-
     font-family: 'Francois One', sans-serif;
+    margin-left: 55rem;
     margin-left: 20rem;
     font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 .para1 {
-    margin-left: 5rem;
+
+    margin-left: 25rem;
     text-align: justify;
+
+    width: 30%;
+
     width: 40%;
+
     font-family: 'Poppins', sans-serif;
     padding-top: 1rem;
     float: left;
@@ -42,7 +48,7 @@ body{
     width: auto;
 }
 .feedbacka{
-    margin-right: 6rem;
+    margin-left: 8rem;
     display: flex;
     margin-top: 3rem;
     justify-content: center;
@@ -72,7 +78,7 @@ body{
 }
 
 #butaones{
-    
+    margin-top:3rem;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -91,4 +97,3 @@ body{
     width: 450px 450px;
     float: right;    
 }
-
