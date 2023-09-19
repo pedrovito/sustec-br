@@ -262,6 +262,38 @@
         background-size: cover;
         background-repeat: no-repeat;
 }
+
+#textea2{
+        background-image: url(../imagens/aulas/aula2.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+#textea3{
+        background-image: url(../imagens/aulas/aula3.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+#textea4{
+        background-image: url(../imagens/aulas/aula4.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+#textea5{
+        background-image: url(../imagens/aulas/aula5.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+#textea6{
+        background-image: url(../imagens/aulas/aula6.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.textea2 img{
+        width: auto;
+        columns: 1;
+}
+
+
 #textea1 img{
         width: auto;
         columns: 1;
@@ -540,7 +572,7 @@ body {
 
 .manual-navigation {
         position: absolute;
-        width: 55%;
+        width: 85%;
         margin-top: 60px;
         display: flex;
         justify-content: center;
@@ -596,7 +628,7 @@ body {
 }
 
 .navigation-auto {
-        width: 55%;
+        width: 85%;
         position: absolute;
         margin-top: 460px;
         display: flex;
