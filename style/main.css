@@ -540,7 +540,7 @@ body {
 
 .manual-navigation {
         position: absolute;
-        width: 6%;
+        width: 55%;
         margin-top: 60px;
         display: flex;
         justify-content: center;
@@ -586,6 +586,7 @@ body {
 }
 
 .navigation-auto div {
+        
         border: 2px solid #20a6ff;
         padding: 5px;
         border-radius: 10px;
@@ -595,8 +596,9 @@ body {
 }
 
 .navigation-auto {
+        width: 55%;
         position: absolute;
-        width: 90%;
+       
         margin-top: 460px;
         display: flex;
         justify-content: center;
