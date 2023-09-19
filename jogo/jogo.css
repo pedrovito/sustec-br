@@ -81,13 +81,12 @@ h3{
 .bemvindo p {
         justify-content: center;
         margin-top: 1rem;
-        
+        color: #000000;
         margin-bottom: 2rem;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1rem;
+        font-size: 1.5rem;
         display: flex;
         text-align: center;
-        color: var(--dark_green);
         
 }
 

@@ -206,6 +206,35 @@ hr {
     border-radius: 50%;
 }
 
+footer {
+    background-color: #344c25;
+    color: #ffff;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.div{
+    padding-top: 2rem;
+}
+
+.um{
+    padding-right: 20rem;
+}
+
+.imgfooter{
+    height: 4rem;
+   
+    display: flex;
+    align-items: center;
+    margin-top: 0.3rem;
+    
+}
 
 
 

@@ -69,6 +69,7 @@
 
 
 .page_mapa{
+    margin-bottom: 2rem;
     border-radius: 1.25rem;
     background: #FFF;
     box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.2), -2px -2px 1px 0px rgba(0, 0, 0, 0.2);
